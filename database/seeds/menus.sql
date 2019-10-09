@@ -1,0 +1,10 @@
+INSERT INTO `menus`(`id`, `label`, `route`, `pid`, `sort`, `created_at`, `updated_at`) VALUES (1, '管理员管理', 'Admin', 0, 100000, '2019-01-11 07:44:11', '2019-01-16 05:00:33');
+INSERT INTO `menus`(`id`, `label`, `route`, `pid`, `sort`, `created_at`, `updated_at`) VALUES (2, '管理员列表', 'AdminList', 1, 0, '2019-01-11 07:44:33', '2019-01-11 07:44:33');
+INSERT INTO `menus`(`id`, `label`, `route`, `pid`, `sort`, `created_at`, `updated_at`) VALUES (3, '角色列表', 'AdminRoleList', 1, 0, '2019-01-11 07:45:06', '2019-01-11 07:45:06');
+INSERT INTO `menus`(`id`, `label`, `route`, `pid`, `sort`, `created_at`, `updated_at`) VALUES (4, '系统设置', 'Set', 0, 0, '2019-01-16 05:00:07', '2019-01-16 05:00:07');
+INSERT INTO `menus`(`id`, `label`, `route`, `pid`, `sort`, `created_at`, `updated_at`) VALUES (5, '菜单管理', 'MenuList', 4, 0, '2019-01-16 05:00:58', '2019-01-16 05:00:58');
+INSERT INTO `menus`(`id`, `label`, `route`, `pid`, `sort`, `created_at`, `updated_at`) VALUES (6, '会员管理', 'User', 0, 700000, '2019-02-15 02:58:10', '2019-02-15 02:58:37');
+INSERT INTO `menus`(`id`, `label`, `route`, `pid`, `sort`, `created_at`, `updated_at`) VALUES (7, '会员列表', 'UserList', 6, 0, '2019-02-15 02:58:31', '2019-02-15 02:58:31');
+INSERT INTO `menus`(`id`, `label`, `route`, `pid`, `sort`, `created_at`, `updated_at`) VALUES (8, '参数管理', 'ParameterList', 4, 100, '2019-02-15 02:59:58', '2019-02-15 02:59:58');
+INSERT INTO `categorys`(`id`, `pid`, `name`, `created_at`, `updated_at`) VALUES (1,0, '新闻', '2019-08-20 02:59:58', '2019-08-20 02:59:58');
+INSERT INTO `categorys`(`id`, `pid`, `name`, `created_at`, `updated_at`) VALUES (2,0,'案例', '2019-08-20 02:59:58', '2019-08-20 02:59:58');

@@ -17,7 +17,7 @@ class ClientsController extends Controller
 	/**
 	 * @OA\Schema(
 	 *     schema="Clients",
-	 *     @OA\Property(property="id",description="客户ID",type="integer",format="int32"),
+	 *     @OA\Property(property="id",description="客户id",type="integer",format="int32"),
 	 *     @OA\Property(property="name",description="客户姓名",type="string"),
 	 *     @OA\Property(property="phone",description="手机号",type="string"),
 	 *     @OA\Property(property="sex",description="性别 1男 2女",type="integer"),

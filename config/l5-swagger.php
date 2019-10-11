@@ -8,13 +8,13 @@ return [
         |--------------------------------------------------------------------------
         */
 
-        'title' => '叁猿官网接口文档',
+        'title' => '博客接口文档',
     ],
 
     'routes' => [
         /*
         |--------------------------------------------------------------------------
-        | Route for accessing api documentation interface
+        | Route for accessing api documentation interface  用于访问api文档接口的路由
         |--------------------------------------------------------------------------
         */
 
@@ -22,7 +22,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | Route for accessing parsed swagger annotations.
+        | Route for accessing parsed swagger annotations. 用于访问解析的swagger注释的路由
         |--------------------------------------------------------------------------
         */
 
@@ -30,7 +30,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | Route for Oauth2 authentication callback.
+        | Route for Oauth2 authentication callback. Oauth2身份验证回调的路由。
         |--------------------------------------------------------------------------
         */
 
@@ -38,7 +38,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | Middleware allows to prevent unexpected access to API documentation
+        | Middleware allows to prevent unexpected access to API documentation 中间件允许防止对API文档的意外访问
         |--------------------------------------------------------------------------
          */
         'middleware' => [
@@ -52,7 +52,7 @@ return [
     'paths' => [
         /*
         |--------------------------------------------------------------------------
-        | Absolute path to location where parsed swagger annotations will be stored
+        | Absolute path to location where parsed swagger annotations will be stored 将存储解析的swagger注释的位置的绝对路径
         |--------------------------------------------------------------------------
         */
 
@@ -60,7 +60,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | File name of the generated json documentation file
+        | File name of the generated json documentation file 生成的json文档文件的文件名
         |--------------------------------------------------------------------------
         */
 
@@ -68,7 +68,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | File name of the generated YAML documentation file
+        | File name of the generated YAML documentation file 生成的YAML文档文件的文件名
         |--------------------------------------------------------------------------
          */
 
@@ -76,7 +76,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | Absolute path to directory containing the swagger annotations are stored.
+        | Absolute path to directory containing the swagger annotations are stored. 存储到包含swagger注释的目录的绝对路径。
         |--------------------------------------------------------------------------
         */
 
@@ -84,7 +84,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | Absolute path to directory where to export views
+        | Absolute path to directory where to export views 导出视图的目录的绝对路径
         |--------------------------------------------------------------------------
         */
 
@@ -92,7 +92,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | Edit to set the api's base path
+        | Edit to set the api's base path 编辑以设置api的基本路径
         |--------------------------------------------------------------------------
         */
 
@@ -100,7 +100,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | Absolute path to directories that you would like to exclude from swagger generation
+        | Absolute path to directories that you would like to exclude from swagger generation 要从swagger生成中排除的目录的绝对路径
         |--------------------------------------------------------------------------
         */
 		
@@ -109,7 +109,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | API security definitions. Will be generated into documentation file.
+    | API security definitions. Will be generated into documentation file. API安全定义。将生成文档文件。
     |--------------------------------------------------------------------------
     */
     'security' => [
@@ -120,12 +120,12 @@ return [
         */
         /*
         'api_key_security_example' => [ // Unique name of security
-            'type' => 'apiKey', // The type of the security scheme. Valid values are "basic", "apiKey" or "oauth2".
-            'description' => 'A short description for security scheme',
-            'name' => 'api_key', // The name of the header or query parameter to be used.
-            'in' => 'header', // The location of the API key. Valid values are "query" or "header".
+            'type' => 'apiKey', // The type of the security scheme. Valid values are "basic", "apiKey" or "oauth2". 安全方案的类型。有效值是“basic”、“apiKey”或“oauth2”。
+            'description' => 'A short description for security scheme', //安全方案的简短描述
+            'name' => 'api_key', // The name of the header or query parameter to be used. 要使用的标题或查询参数的名称
+            'in' => 'header', // The location of the API key. Valid values are "query" or "header". API密钥的位置。有效值是“查询”或“标头”。
         ],
-        'oauth2_security_example' => [ // Unique name of security
+        'oauth2_security_example' => [ // Unique name of security 安全的唯一名称
             'type' => 'oauth2', // The type of the security scheme. Valid values are "basic", "apiKey" or "oauth2".
             'description' => 'A short description for oauth2 security scheme.',
             'flow' => 'implicit', // The flow used by the OAuth2 security scheme. Valid values are "implicit", "password", "application" or "accessCode".
@@ -166,7 +166,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Turn this on to generate a copy of documentation in yaml format
+    | Turn this on to generate a copy of documentation in yaml format 打开此选项以生成yaml格式的文档副本
     |--------------------------------------------------------------------------
      */
 
@@ -174,7 +174,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Edit to set the swagger version number
+    | Edit to set the swagger version number 编辑设置swagger版本号
     |--------------------------------------------------------------------------
     */
 
@@ -182,7 +182,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Edit to trust the proxy's ip address - needed for AWS Load Balancer
+    | Edit to trust the proxy's ip address - needed for AWS Load Balancer 编辑以信任代理的ip地址- AWS负载均衡器所需要的
     |--------------------------------------------------------------------------
     */
 
